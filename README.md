@@ -10,8 +10,30 @@ Finally, exported data to tableau and created [interactive dashboard](https://pu
 
 ---------------------------------------------------------------------------------------------------------------------------------------------
 
-# [Project 2: Create databse table from CSV](https://github.com/wcstrickland/csv_to_sql)
-#### A python script that inserts data from a CSV file into a Database.
+
+# [Project 2: Priority Queue Scheduler](https://github.com/wcstrickland/priorityqueue)
+## Concept
+The program allows the creation of Employees, Jobs, and Priority levels. Jobs have several properties including a priority level, a length of time the job has been listed, and an estimated time the job will take to complete. The program assigns “jobs” to employees always allocating the highest priority level job that has been listed the longest. This system ensures the most important jobs are evenly distributed across employees for simultaneous completion to prevent bottlenecking. Employees are scheduled up until they reach their “max hours” for the day, which may vary if the employee is part-time or working a half-day. A threshold can be set to provide an alert if there are jobs left outstanding in a priority level after scheduling to determine resource management such as authorizing overtime or using temp employees. 
+
+## Practical Highlights:
+- Versatile: can be applied to any allocation of a prioritized workflow (maintenance work orders, call center hold queue, patient intake in a hospital)
+- Streamlined: user input required only at the level of necessity such as creating a work order or determining employees who are not working on a given day. Jobs are automatically added to appropriate queues, and warnings are provided if inputs are malformed such as creating a job with a priority level that does not exist.
+- Reusable
+- Efficient
+
+
+## Technical Highlights:
+- Use of unit testing
+- Use of max heap to create priority queues based on the attribute of an object to optimize performance
+- Use of generator functions. 
+
+## Sample alert and individual schedule 
+![alt text](images/sample_alert.png)
+
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+# [Project 3: Create databse table from CSV](https://github.com/wcstrickland/csv_to_sql)
+#### A python command line tool that inserts data from a CSV file into a Database.
 
 The goal of the project was to provide a tool to quickly migrate large amounts of data into a databse where the traditional import tools in database workbenches would become bogged down or hang. The sample file shown in the gif is a flow cytometry output CSV of over a million rows and almost 20 columns. The file is [too large](images/csv4.png) to upload to github and consistently causes the MySQL workbench import wizard to fail. Even after converting the CSV to a a SQL script the process is still unreliable. This program creates a database table and inserts the data in a matter of [seconds](images/csv1.png).
 
@@ -29,38 +51,24 @@ This project improved my understanding of
 
 ---------------------------------------------------------------------------------------------------------------------------------------------
 
-# [Project 3: Rock Paper Scissors Game](https://github.com/wcstrickland/rock_paper_scissors)
+# Project 4: Rock Paper Scissors
+# [Python version](https://github.com/wcstrickland/rock_paper_scissors)
+# [Javascript version](https://github.com/wcstrickland/RockPaperScissors)
+
 #### A simple graphical game of Rock Paper Scissors.
-
-I undertook this project using Tkinter rather than pygame as a means of learning how to draw GUI elements, create buttons, bind actions to buttons, and dynamically alter elements of the widget, based on user input. 
-
-This project improved my understanding of:
-- creating GUI elements
-- linking element behavior
-- controlling loop flow
-- calling on external image assets dynamically
-- the random module in the python standard library
-- using python nested dictionaries to evaluate input
 
 ![alt text](https://media.giphy.com/media/5kQYqUcXHCKkGYBQNY/giphy.gif)
 
-
----------------------------------------------------------------------------------------------------------------------------------------------
-# [Project 4: RockPaperScissors Javascript edition](https://github.com/wcstrickland/RockPaperScissors)
-
-A simple graphical game of Rock Paper Scissors against a computer. This iteration is created in JavaScript and displayed in the browser. 
-
-The Project includes:
-- Bootstrap
-- Flexbox
-- Event listeners
-- Callback functions
-- Interactive web elements via javascript
-- DOM manipulation.
-
 ![alt text](https://media.giphy.com/media/JGXjxr0c0bRPa682fn/giphy.gif)
 
+This project includes:
+- implementing logic in multiple languages.
+- drawing/manipulating GUI elements
+- callback functions
+- basic DOM manipulation
+
 ---------------------------------------------------------------------------------------------------------------------------------------------
+
 
 
 # [Project 5: Web Scraper and API](https://github.com/wcstrickland/news_api)
@@ -80,27 +88,4 @@ This project includes:
 - Utilizing a python driver to interface with SQL.
 
 ![alt text](images/home_page_img.png)
-
----------------------------------------------------------------------------------------------------------------------------------------------
-
-# [Project 6: Priority Queue Scheduler](https://github.com/wcstrickland/priorityqueue)
-## Concept
-The program allows the creation of Employees, Jobs, and Priority levels. Jobs have several properties including a priority level, a length of time the job has been listed, and an estimated time the job will take to complete. The program assigns “jobs” to employees always allocating the highest priority level job that has been listed the longest. This system ensures the most important jobs are evenly distributed across employees for simultaneous completion to prevent bottlenecking. Employees are scheduled up until they reach their “max hours” for the day, which may vary if the employee is part-time or working a half-day. A threshold can be set to provide an alert if there are jobs left outstanding in a priority level after scheduling to determine resource management such as authorizing overtime or using temp employees. 
-
-## Practical Highlights:
-- Versatile: can be applied to any allocation of a prioritized workflow (maintenance work orders, call center hold queue, patient intake in a hospital)
-- Streamlined: user input required only at the level of necessity such as creating a work order or determining employees who are not working on a given day. Jobs are automatically added to appropriate queues, and warnings are provided if inputs are malformed such as creating a job with a priority level that does not exist.
-- Reusable
-- Efficient
-
-
-## Technical Highlights:
-- Use of unit testing
-- Use of max heap to create priority queues based on the attribute of an object to optimize performance
-- Use of modulo in a  generator in conjunction with a range-based for loop to “wrap” around to the beginning of a list and “remember” the last item the next time the for loop is accessed in code.
-
-## Sample alert and individual schedule 
-![alt text](images/sample_alert.png)
-
----------------------------------------------------------------------------------------------------------------------------------------------
 
