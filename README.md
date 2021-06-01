@@ -1,5 +1,6 @@
 
-# [Project 1: Yikes! a yelp like website for sharing haunted locations.](https://still-wildwood-10638.herokuapp.com/)
+# [Project 1: Yikes!](https://still-wildwood-10638.herokuapp.com/)
+## A yelp like website for sharing haunted locations!
 #### [The github repo](https://github.com/wcstrickland/yikes)
 
 A web app for users to:
@@ -16,7 +17,7 @@ This project includes:
 - user authentication
 - using API's from multiple cloud services. e.g. mongoDB, cloudinary, mapbox
 
-![alt text](images/hauntings.png)
+![If you are reading this my link broke. :(](https://media.giphy.com/media/jujOO2uiyU0Xt31E2t/giphy.gif)
 
 ---------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -28,7 +29,7 @@ Then used Python to reorganize data and calculate new fields specific to busines
 and generated [statistical analysis](images/jupyter_img.png) of performance by group. 
 Finally, exported data to tableau and created [interactive dashboard](https://public.tableau.com/shared/KXPPY74GJ?:display_count=y&:origin=viz_share_link) for the end user.
 
-![alt text](https://media.giphy.com/media/LoZyUPDg7HZu2sgd5I/giphy.gif)
+![If you are reading this my link broke. :(](https://media.giphy.com/media/LoZyUPDg7HZu2sgd5I/giphy.gif)
 
 ---------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -50,7 +51,7 @@ The program allows the creation of Employees, Jobs, and Priority levels. Jobs ha
 - Use of generator functions. 
 
 ## Sample alert and individual schedule 
-![alt text](images/sample_alert.png)
+![If you are reading this my link broke. :(](images/sample_alert.png)
 
 ---------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -68,7 +69,7 @@ This project improved my understanding of
 - custom iteration
 - [utilizing GUIs](images/csv2.png)
 
-![alt text](https://media.giphy.com/media/IqKeb1e0qlnZFz9vk9/giphy.gif)
+![If you are reading this my link broke. :(](https://media.giphy.com/media/IqKeb1e0qlnZFz9vk9/giphy.gif)
 
 
 ---------------------------------------------------------------------------------------------------------------------------------------------
@@ -79,9 +80,9 @@ This project improved my understanding of
 
 #### A simple graphical game of Rock Paper Scissors.
 
-![alt text](https://media.giphy.com/media/5kQYqUcXHCKkGYBQNY/giphy.gif)
+![If you are reading this my link broke. :(](https://media.giphy.com/media/5kQYqUcXHCKkGYBQNY/giphy.gif)
 
-![alt text](https://media.giphy.com/media/JGXjxr0c0bRPa682fn/giphy.gif)
+![If you are reading this my link broke. :(](https://media.giphy.com/media/JGXjxr0c0bRPa682fn/giphy.gif)
 
 This project includes:
 - implementing logic in multiple languages.
@@ -100,7 +101,7 @@ This project includes:
 Created a web scraping program that requests html from a major news outlet and then parses the request return via tags. 
 ##### Part 2
 Created a front facing API that allows users to programmatically search the data base with high level of specificity through a series of endpoints, or a simple query string.
-##### Phase 3 
+##### Part 3 
 Created a simple static html page with  a brief description of the API’s endpoints and provided examples on how to properly use them. 
 
 This project includes:
@@ -109,5 +110,5 @@ This project includes:
 - Web framework principles (Flask) specifically establishing request routes, defining resources, serialization of information, and JSON format.
 - Utilizing a python driver to interface with SQL.
 
-![alt text](images/home_page_img.png)
+![If you are reading this my link broke. :(](images/home_page_img.png)
 
