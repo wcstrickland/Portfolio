@@ -105,9 +105,9 @@ Created a front facing API that allows users to programmatically search the data
 Created a simple static html page with  a brief description of the API’s endpoints and provided examples on how to properly use them. 
 
 This project includes:
-- web scraping and html tags
+- web scraping to attain information not available via public API
 - capturing information via python and storing/accessing it in a database.
-- Web framework principles (Flask) specifically establishing request routes, defining resources, serialization of information, and JSON format.
+- Web framework principles (Flask) specifically establishing request routes, defining resources, serialization of information to JSON format.
 - Utilizing a python driver to interface with SQL.
 
 ![If you are reading this my link broke. :(](images/home_page_img.png)
