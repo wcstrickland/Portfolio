@@ -10,6 +10,7 @@ A web app for users to:
 
 This project includes:
 - NodeJS
+- [Recursion](https://wcstrickland.github.io/Portfolio/)
 - Express
 - MongoDB
 - Deployment via Heroku
