@@ -56,7 +56,8 @@ The program allows the creation of Employees, Jobs, and Priority levels. Jobs ha
 
 ---------------------------------------------------------------------------------------------------------------------------------------------
 
-# [Project 4: Create databse table from CSV](https://github.com/wcstrickland/csv_to_sql)
+# Project 4: Create databse table from CSV
+[python](https://github.com/wcstrickland/csv_to_sql)
 #### A python command line tool that inserts data from a CSV file into a Database.
 
 The goal of the project was to provide a tool to quickly migrate large amounts of data into a databse where the traditional import tools in database workbenches would become bogged down or hang. The sample file shown in the gif is a flow cytometry output CSV of over a million rows and almost 20 columns. The file is [too large](images/csv4.png) to upload to github and consistently causes the MySQL workbench import wizard to fail. Even after converting the CSV to a a SQL script the process is still unreliable. This program creates a database table and inserts the data in a matter of [seconds](images/csv1.png).
