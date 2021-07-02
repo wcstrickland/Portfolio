@@ -56,7 +56,7 @@ The program allows the creation of Employees, Jobs, and Priority levels. Jobs ha
 
 ---------------------------------------------------------------------------------------------------------------------------------------------
 
-# Project 4: Create databse table from CSV
+# Project 4: Create database table from CSV
 # <img src='images/python.svg' width='200' height='200'/> [python version](https://github.com/wcstrickland/csv_to_sql)
 #### A python command line tool that inserts data from a CSV file into a Database.
 
@@ -75,7 +75,7 @@ This project includes
 ## <img src='images/go.png' width='200' height='100'/>[version](http://github.com/wcstrickland/csv-importer)
 #### A go command line tool for inserting csv files into a databse
 
-The goal of this project was to improve upon my previous python version by providing support for multiple databases, improved flexibility with command line flags, and improved performance via go's static type system and concurrency tools.
+The goal of this project was to improve upon my previous python version by providing: a cross-platform binary with no dependencies, support for multiple databases, improved flexibility with command line flags, and improved performance via go's static type system and concurrency tools.
 
 This project includes:
 - concurrency patterns such as worker pools, "fan out - fan in", and channels
