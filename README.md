@@ -57,21 +57,30 @@ The program allows the creation of Employees, Jobs, and Priority levels. Jobs ha
 ---------------------------------------------------------------------------------------------------------------------------------------------
 
 # Project 4: Create databse table from CSV
-[python](https://github.com/wcstrickland/csv_to_sql)
+## [python](https://github.com/wcstrickland/csv_to_sql)
 #### A python command line tool that inserts data from a CSV file into a Database.
 
 The goal of the project was to provide a tool to quickly migrate large amounts of data into a databse where the traditional import tools in database workbenches would become bogged down or hang. The sample file shown in the gif is a flow cytometry output CSV of over a million rows and almost 20 columns. The file is [too large](images/csv4.png) to upload to github and consistently causes the MySQL workbench import wizard to fail. Even after converting the CSV to a a SQL script the process is still unreliable. This program creates a database table and inserts the data in a matter of [seconds](images/csv1.png).
 
-This project improved my understanding of
+This project includes
 - [creating a Command Line Interface](images/csv3.png)
 - property decoration
 - generator behavior
 - context managers
 - i/o
 - custom iteration
-- [utilizing GUIs](images/csv2.png)
 
 ![If you are reading this my link broke. :(](https://media.giphy.com/media/IqKeb1e0qlnZFz9vk9/giphy.gif)
+
+## [![go](/images/go.png)](http://github.com/wcstrickland/csv-importer)
+#### A go command line tool for inserting csv files into a databse
+
+The goal of this project was to improve upon my previous python version by providing support for multiple databases, improved flexibility with command line flags, and improved performance via go's static type system and concurrency tools.
+
+This project includes:
+- concurrency patterns such as worker pools, "fan out - fan in", and channels
+- database connection management
+- input validation
 
 
 ---------------------------------------------------------------------------------------------------------------------------------------------
