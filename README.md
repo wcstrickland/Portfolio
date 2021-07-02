@@ -72,7 +72,7 @@ This project includes
 
 ![If you are reading this my link broke. :(](https://media.giphy.com/media/IqKeb1e0qlnZFz9vk9/giphy.gif)
 
-## [![go](<img src='images/go.png' width='200' height='100'/>)](http://github.com/wcstrickland/csv-importer)
+## [<img src='images/go.png' width='200' height='100'/>](http://github.com/wcstrickland/csv-importer)
 #### A go command line tool for inserting csv files into a databse
 
 The goal of this project was to improve upon my previous python version by providing support for multiple databases, improved flexibility with command line flags, and improved performance via go's static type system and concurrency tools.
