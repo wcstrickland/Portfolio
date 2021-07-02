@@ -82,7 +82,7 @@ This project includes:
 - database connection management
 - input validation
 
-![i guess this broke :(](images/insert.gif)
+![i guess this broke :(](images/insert1.gif)
 
 ---------------------------------------------------------------------------------------------------------------------------------------------
 
