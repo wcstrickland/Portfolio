@@ -40,7 +40,7 @@ Finally, exported data to tableau and created [interactive dashboard](https://pu
 
 # [Project 3: Apollo Protocol Questionaire](https://pure-falls-67220.herokuapp.com/)
 
-## A small node app for serving a questionaire and producing a customized, visual response.
+## A small node app meant to replace a google form and offer additional functionality.
 
 #### [The github repo](https://github.com/wcstrickland/apollo)
 
