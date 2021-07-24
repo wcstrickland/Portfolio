@@ -123,7 +123,25 @@ This project includes:
 
 ---
 
-# Project 6: Rock Paper Scissors
+# [Project 6: Password manager](https://github.com/wcstrickland/password)
+
+## A command line password manager written in Python.
+
+The password manager includes:
+
+- basic CRUD for passwords
+- the ability to generate random passwords
+- passwords are automatically copied to the clipboard when they are created or retrieved
+- passwords are encrypted before being stored
+- the master password is never stored
+
+
+![If you are reading this my link broke. :(](images/password_cli.png)
+![If you are reading this my link broke. :(](images/password_clear.png)
+![If you are reading this my link broke. :(](images/password_encryp.png)
+
+---
+# Project 7: Rock Paper Scissors
 
 # [Python version](https://github.com/wcstrickland/rock_paper_scissors)
 
@@ -144,7 +162,7 @@ This project includes:
 
 ---
 
-# [Project 6: Web Scraper and API](https://github.com/wcstrickland/news_api)
+# [Project 8: Web Scraper and API](https://github.com/wcstrickland/news_api)
 
 #### A REST API interfacing with a data base of news articles scraped from a website in JSON like format.
 
