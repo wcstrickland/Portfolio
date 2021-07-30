@@ -74,7 +74,7 @@ Finally, exported data to tableau and created [interactive dashboard](https://pu
 
 ---
 
-# [Project 4: Apollo Protocol Questionaire](https://pure-falls-67220.herokuapp.com/)
+# [Project 4: Apollo Protocol Questionnaire](https://pure-falls-67220.herokuapp.com/)
 
 ## A small node app meant to replace a google form and offer additional functionality.
 
