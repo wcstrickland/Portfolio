@@ -56,7 +56,8 @@ This project includes:
 - Basic MVC pattern
 - Cron
 
-![If you are reading this my link broke. :(](https://media.giphy.com/media/jujOO2uiyU0Xt31E2t/giphy.gif)
+![If you are reading this my link broke. :(](images/legoweb_img.png)
+![If you are reading this my link broke. :(](images/LEGO.png)
 
 ---
 
