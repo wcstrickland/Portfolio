@@ -68,7 +68,7 @@ This project includes:
 Reformatted [original](images/call_raw_xl.png) excel workbook designed for rudimentary analysis.
 Then used Python to reorganize data and calculate new fields specific to business case,
 and generated [statistical analysis](images/jupyter_img.png) of performance by group.
-Finally, exported data to tableau and created [interactive dashboard](https://public.tableau.com/views/call_center/sl_dash?:language=en-US&:display_count=n&:origin=viz_share_link) for the end user.
+Finally, exported data to tableau and created [interactive dashboard](https://public.tableau.com/shared/DXR4B5K7Y?:display_count=n&:origin=viz_share_link) for the end user.
 
 ![If you are reading this my link broke. :(](https://media.giphy.com/media/LoZyUPDg7HZu2sgd5I/giphy.gif)
 
