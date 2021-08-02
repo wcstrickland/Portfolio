@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html class="no-js" lang="">
+  <head>
+    <!-- meta charset -->
+    <meta charset="utf-8" />
+    <!-- site title -->
+    <title>Rock Paper Scissors</title>
+    <!-- meta description -->
+    <meta name="description" content="" />
+    <!-- mobile viwport meta -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- fevicon -->
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+
+    <!-- ================================
+        CSS Files
+        ================================= -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400i|Open+Sans:400,600,700,800"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/themefisher-fonts.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/dark.css" />
+    <link id="color-changer" rel="stylesheet" href="css/colors/green.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body class="dark">
+    <div class="preloader">
+      <div class="loading-mask"></div>
+      <div class="loading-mask"></div>
+      <div class="loading-mask"></div>
+      <div class="loading-mask"></div>
+      <div class="loading-mask"></div>
+    </div>
+
+    <main class="site-wrapper">
+      <div class="pt-table">
+        <div class="pt-tablecell page-about relative">
+          <!-- .close -->
+          <a href="./works.html" class="page-close"
+            ><i class="tf-ion-close"></i
+          ></a>
+          <!-- /.close -->
+
+          <div class="container">
+            <div class="row">
+              <div
+                class="
+                  col-xs-12 col-md-offset-1 col-md-10 col-lg-offset-2 col-lg-8
+                "
+              >
+<section class="container">
+        <div class="row row-cols-3" id="row1">
+            <div class="col">
+                <img id="compRock" src="https://images.unsplash.com/photo-1525857597365-5f6dbff2e36e?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1050&q=80" alt="" />
+            </div>
+            <div class="col">
+                <img id="compPaper" src="https://images.unsplash.com/photo-1532153975070-2e9ab71f1b14?ixid=MXwxMjA3fDB8MHxzZWFyY2h8NXx8cGFwZXJ8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=700&q=60" alt="" />
+            </div>
+            <div class="col">
+                <img id="compScissors" src="https://images.unsplash.com/photo-1586685983389-612a65517b38?ixid=MXwxMjA3fDB8MHxzZWFyY2h8M3x8c2Npc3NvcnN8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=700&q=60" alt="" />
+            </div>
+        </div>
+        <div class="row" id="row2">
+            <div class="col">
+                <div class="pog" id="compPlace"><img id="compPlaceImg" src="" alt=""></div>
+            </div>
+        </div>
+        <div class="row" id="row3">
+            <div class="col">
+                <div class="pog" id="playerPlace"><img id="playerPlaceImg" src="" alt=""></div>
+            </div>
+        </div>
+        <div class="row row-cols-3" id="row4">
+            <div class="col">
+                <img class="player" id="rock" src="https://images.unsplash.com/photo-1525857597365-5f6dbff2e36e?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1050&q=80" alt="" />
+            </div>
+            <div class="col">
+                <img class="player" id="paper" src="https://images.unsplash.com/photo-1532153975070-2e9ab71f1b14?ixid=MXwxMjA3fDB8MHxzZWFyY2h8NXx8cGFwZXJ8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=700&q=60" alt="" />
+            </div>
+            <div class="col">
+                <img class="player" id="scissors" src="https://images.unsplash.com/photo-1586685983389-612a65517b38?ixid=MXwxMjA3fDB8MHxzZWFyY2h8M3x8c2Npc3NvcnN8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=700&q=60" alt="" />
+            </div>
+        </div>
+    </section>
+              </div>
+              <!--cols-->
+            </div>
+            <!--row-->
+            <div class="mb-5" style="margin-bottom: 5em"></div>
+            <!-- /.row -->
+          </div>
+          <!-- /.container -->
+        </div>
+        <!-- /.pt-tablecell -->
+      </div>
+      <!-- /.pt-table -->
+    </main>
+    <!-- /.site-wrapper -->
+
+    <!-- ================================
+        JavaScript Libraries
+        ================================= -->
+    <script src="js/vendor/jquery-2.2.4.min.js"></script>
+    <script src="js/vendor/bootstrap.min.js"></script>
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/isotope.pkgd.min.js"></script>
+    <script src="js/jquery.nicescroll.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery-validation.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+    <script src="js/app.js"> </script>
+  </body>
+</html>

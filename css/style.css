@@ -1,0 +1,46 @@
+img {
+  width: 10vw;
+  height: 15vh;
+  border-radius: 50%;
+  transition: 0.5s;
+  border: 2px solid black;
+}
+
+h1 {
+  color: #11698e;
+}
+
+#row2,
+#row3 {
+  margin: 1vw;
+}
+
+#playerPlaceImg,
+#compPlaceImg {
+  border: 2px solid black;
+  width: 14vw;
+  height: 20vh;
+  border-radius: 50%;
+  transition: 0.3s;
+  display: none;
+}
+
+.pog {
+  border: 2px solid black;
+  width: 14vw;
+  height: 20vh;
+  border-radius: 50%;
+  transition: 0.5s;
+}
+
+.col {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+}
+
+.player:hover {
+  border-color: #f1ff5c;
+  box-shadow: 0 0.5em 0.5em -0.4em #f1ff5c;
+}
