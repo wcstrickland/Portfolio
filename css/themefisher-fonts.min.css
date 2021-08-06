@@ -605,16 +605,16 @@
 .tf-ion-clock:before {
   content: "\f26e";
 }
-.tf-compass-circled:before {
+.tf-ion-arrow-left-c-circled:before {
   content: "\f128";
 }
-.tf-compass-round:before {
+.tf-ion-arrow-left-c-round:before {
   content: "\f129";
 }
-.tf-compass:before {
+.tf-ion-arrow-left-c:before {
   content: "\f12a";
 }
-.tf-compassd-captioning:before {
+.tf-ion-arrow-left-cd-captioning:before {
   content: "\f317";
 }
 .tf-ion-cloud:before {
@@ -2468,7 +2468,7 @@
 .tf-global:before {
   content: "\e052";
 }
-.tf-compass:before {
+.tf-ion-arrow-left-c:before {
   content: "\e053";
 }
 .tf-lifesaver:before {
