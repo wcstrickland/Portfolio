@@ -583,6 +583,133 @@ label {
 }
 
 /*------------------------------------------------
+    works Page
+-------------------------------------------------*/
+/* General Button Style */
+.hex-button {
+  position: relative;
+  display: block;
+  background: transparent;
+  width: 100px;
+  height: 70px;
+  line-height: 50px;
+  text-align: center;
+  font-size: 25px;
+  font-family: "Open Sans", sans-serif;
+  text-decoration: none;
+  text-transform: uppercase;
+  margin: 40px auto;
+}
+.hex-button:before,
+.hex-button:after {
+  width: 100px;
+  left: 0px;
+  height: 24px;
+  z-index: -1;
+}
+.violet {
+  color: violet;
+}
+.indigo {
+  color: indigo;
+}
+.slateblue {
+  color: slateblue;
+}
+.mediumseagreen {
+  color: mediumseagreen;
+}
+.yellowgreen {
+  color: #86a438;
+}
+.orange {
+  color: orange;
+}
+.indianred {
+  color: indianred;
+}
+/* Button Border Style */
+.violet:before,
+.violet:after {
+  border: 3px solid violet;
+}
+.indigo:before,
+.indigo:after {
+  border: 3px solid indigo;
+}
+.slateblue:before,
+.slateblue:after {
+  border: 3px solid slateblue;
+}
+.mediumseagreen:before,
+.mediumseagreen:after {
+  border: 3px solid mediumseagreen;
+}
+.yellowgreen:before,
+.yellowgreen:after {
+  border: 3px solid #86a438;
+}
+.orange:before,
+.orange:after {
+  border: 3px solid orange;
+}
+.indianred:before,
+.indianred:after {
+  border: 3px solid indianred;
+}
+
+.hex-button:before {
+  position: absolute;
+  content: "";
+  border-bottom: none;
+  -webkit-transform: perspective(15px) rotateX(15deg);
+  -moz-transform: perspective(15px) rotateX(15deg);
+  transform: perspective(15px) rotateX(15deg);
+}
+.hex-button:after {
+  position: absolute;
+  top: 28px;
+  content: "";
+  border-top: none;
+  -webkit-transform: perspective(15px) rotateX(-15deg);
+  -moz-transform: perspective(15px) rotateX(-15deg);
+  transform: perspective(15px) rotateX(-15deg);
+}
+
+/* Button Hover Style */
+.violet:hover:before,
+.violet:hover:after {
+  background: violet;
+}
+.indigo:hover:before,
+.indigo:hover:after {
+  background: indigo;
+}
+.mediumseagreen:hover:before,
+.mediumseagreen:hover:after {
+  background: mediumseagreen;
+}
+.slateblue:hover:before,
+.slateblue:hover:after {
+  background: slateblue;
+}
+.yellowgreen:hover:before,
+.yellowgreen:hover:after {
+  background: #86a438;
+}
+.orange:hover:before,
+.orange:hover:after {
+  background: orange;
+}
+.indianred:hover:before,
+.indianred:hover:after {
+  background: indianred;
+}
+
+.hex-button:hover {
+  color: #fff;
+}
+/*------------------------------------------------
     About Page
 -------------------------------------------------*/
 .about-author {
