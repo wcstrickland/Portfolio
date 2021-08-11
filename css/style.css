@@ -1,6 +1,6 @@
 img {
-  width: 10vw;
-  height: 15vh;
+  width: 6em;
+  height: 6em;
   border-radius: 50%;
   transition: 0.5s;
   border: 2px solid black;
@@ -18,8 +18,8 @@ h1 {
 #playerPlaceImg,
 #compPlaceImg {
   border: 2px solid black;
-  width: 14vw;
-  height: 20vh;
+  width: 6em;
+  height: 6em;
   border-radius: 50%;
   transition: 0.3s;
   display: none;
@@ -27,8 +27,8 @@ h1 {
 
 .pog {
   border: 2px solid black;
-  width: 14vw;
-  height: 20vh;
+  width: 8em;
+  height: 8em;
   border-radius: 50%;
   transition: 0.5s;
 }
