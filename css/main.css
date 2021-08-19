@@ -607,6 +607,14 @@ label {
   height: 24px;
   z-index: -1;
 }
+.hex-button:hover {
+  transform: translateY(-0.5rem);
+  box-shadow: 0 1rem 2rem rgba(rgba(138, 175, 50, 0.418));
+}
+.hex-button:active {
+  transform: translateY(-0.1rem);
+  box-shadow: 0 0.5rem 1rem rgba(rgba(138, 175, 50, 0.418));
+}
 .violet {
   color: violet;
 }
